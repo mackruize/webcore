@@ -1,36 +1,78 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-    <title>Web Tools</title>
+    <title>Web Core</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   </head>
   <body>
+<!--NAVBAR-->
+ <!-- Placeholder for navbar -->
+ <div id="navbar-placeholder"></div>
+ <!-- Script to load navbar dynamically -->
+ <script src="js/navbar.js"></script>
+<!--NAVBAR-->
 
-<!--Navigation bar-->
-<div id="nav-placeholder">
+<!--CONTENT-->
+
+<center><div class="panel panel-default">
+  <div class="panel-body">
+    SPEEDTEST
+  </div>
+</div></center>
+
+<div class="tabbable" style="margin-top: -20px;"> <!-- Only required for left/right tabs -->
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#tab1" data-toggle="tab">FAST</a></li>
+    <li><a href="#tab2" data-toggle="tab">OOKLA</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab1">
+      <p>
+        
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  Basic panel example
+                </div>
+              </div>
+              <img src="..." alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>...</p>
+
+                <div class="well well-primary"><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </p>
+    </div>
+    <div class="tab-pane" id="tab2">
+      <p>Howdy, I'm in Section 2.</p>
+    </div>
+  </div>
 </div>
-<script>
-$(function(){
-  $("#nav-placeholder").load("assets/navbar.html");
-});
-</script>
-<!--end of Navigation bar-->
 
 
 
+<!--CONTENT-->
 
+<!--FOOTER-->
+<!-- Placeholder for footer -->
+    <div id="footer-placeholder"></div>
+<!-- Script to load footer dynamically -->
+    <script src="js/footer.js"></script>
+<!--FOOTER-->
 
-
-    <h1>Hello, world!</h1>
-
-
-
-
-
+<!--CORE-->
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
+<!--CORE-->
   </body>
 </html>

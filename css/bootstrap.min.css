@@ -6022,3 +6022,14 @@ button.close {
   right: 0;
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/* CUSTOM CSS  */
+
+
+.well-primary {
+  background-color: #337ab7; /* Set your primary color */
+  border-color: #2e6da4; /* Set the corresponding border color */
+  /* Add any additional styles as needed */
+}
+
+
